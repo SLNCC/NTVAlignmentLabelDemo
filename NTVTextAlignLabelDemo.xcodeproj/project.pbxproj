@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8322DE12049465700BACF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8322DE02049465700BACF1B /* AppDelegate.m */; };
+		D8322DE42049465700BACF1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8322DE32049465700BACF1B /* ViewController.m */; };
+		D8322DE72049465700BACF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8322DE52049465700BACF1B /* Main.storyboard */; };
+		D8322DE92049465700BACF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8322DE82049465700BACF1B /* Assets.xcassets */; };
+		D8322DEC2049465700BACF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8322DEA2049465700BACF1B /* LaunchScreen.storyboard */; };
+		D8322DEF2049465700BACF1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8322DEE2049465700BACF1B /* main.m */; };
+		D8322DF92049465700BACF1B /* NTVTextAlignLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8322DF82049465700BACF1B /* NTVTextAlignLabelDemoTests.m */; };
+		D8322E042049465700BACF1B /* NTVTextAlignLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8322E032049465700BACF1B /* NTVTextAlignLabelDemoUITests.m */; };
+		D8322E152049466A00BACF1B /* NTVTextAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8322E112049466900BACF1B /* NTVTextAlignLabel.m */; };
+		D8322E162049466A00BACF1B /* VerticalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8322E142049466A00BACF1B /* VerticalLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8322DF52049465700BACF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8322DD42049465700BACF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8322DDB2049465700BACF1B;
+			remoteInfo = NTVTextAlignLabelDemo;
+		};
+		D8322E002049465700BACF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8322DD42049465700BACF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8322DDB2049465700BACF1B;
+			remoteInfo = NTVTextAlignLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8322DDC2049465700BACF1B /* NTVTextAlignLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTVTextAlignLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8322DDF2049465700BACF1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8322DE02049465700BACF1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8322DE22049465700BACF1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8322DE32049465700BACF1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8322DE62049465700BACF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8322DE82049465700BACF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8322DEB2049465700BACF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8322DED2049465700BACF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8322DEE2049465700BACF1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8322DF42049465700BACF1B /* NTVTextAlignLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTVTextAlignLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8322DF82049465700BACF1B /* NTVTextAlignLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTVTextAlignLabelDemoTests.m; sourceTree = "<group>"; };
+		D8322DFA2049465700BACF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8322DFF2049465700BACF1B /* NTVTextAlignLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTVTextAlignLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8322E032049465700BACF1B /* NTVTextAlignLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTVTextAlignLabelDemoUITests.m; sourceTree = "<group>"; };
+		D8322E052049465700BACF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8322E112049466900BACF1B /* NTVTextAlignLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTVTextAlignLabel.m; sourceTree = "<group>"; };
+		D8322E122049466A00BACF1B /* NTVTextAlignLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTVTextAlignLabel.h; sourceTree = "<group>"; };
+		D8322E132049466A00BACF1B /* VerticalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLabel.h; sourceTree = "<group>"; };
+		D8322E142049466A00BACF1B /* VerticalLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8322DD92049465700BACF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8322DF12049465700BACF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8322DFC2049465700BACF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8322DD32049465700BACF1B = {
+			isa = PBXGroup;
+			children = (
+				D8322DDE2049465700BACF1B /* NTVTextAlignLabelDemo */,
+				D8322DF72049465700BACF1B /* NTVTextAlignLabelDemoTests */,
+				D8322E022049465700BACF1B /* NTVTextAlignLabelDemoUITests */,
+				D8322DDD2049465700BACF1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8322DDD2049465700BACF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8322DDC2049465700BACF1B /* NTVTextAlignLabelDemo.app */,
+				D8322DF42049465700BACF1B /* NTVTextAlignLabelDemoTests.xctest */,
+				D8322DFF2049465700BACF1B /* NTVTextAlignLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8322DDE2049465700BACF1B /* NTVTextAlignLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8322DDF2049465700BACF1B /* AppDelegate.h */,
+				D8322DE02049465700BACF1B /* AppDelegate.m */,
+				D8322E122049466A00BACF1B /* NTVTextAlignLabel.h */,
+				D8322E112049466900BACF1B /* NTVTextAlignLabel.m */,
+				D8322E132049466A00BACF1B /* VerticalLabel.h */,
+				D8322E142049466A00BACF1B /* VerticalLabel.m */,
+				D8322DE22049465700BACF1B /* ViewController.h */,
+				D8322DE32049465700BACF1B /* ViewController.m */,
+				D8322DE52049465700BACF1B /* Main.storyboard */,
+				D8322DE82049465700BACF1B /* Assets.xcassets */,
+				D8322DEA2049465700BACF1B /* LaunchScreen.storyboard */,
+				D8322DED2049465700BACF1B /* Info.plist */,
+				D8322DEE2049465700BACF1B /* main.m */,
+			);
+			path = NTVTextAlignLabelDemo;
+			sourceTree = "<group>";
+		};
+		D8322DF72049465700BACF1B /* NTVTextAlignLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8322DF82049465700BACF1B /* NTVTextAlignLabelDemoTests.m */,
+				D8322DFA2049465700BACF1B /* Info.plist */,
+			);
+			path = NTVTextAlignLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		D8322E022049465700BACF1B /* NTVTextAlignLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8322E032049465700BACF1B /* NTVTextAlignLabelDemoUITests.m */,
+				D8322E052049465700BACF1B /* Info.plist */,
+			);
+			path = NTVTextAlignLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8322DDB2049465700BACF1B /* NTVTextAlignLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8322E082049465700BACF1B /* Build configuration list for PBXNativeTarget "NTVTextAlignLabelDemo" */;
+			buildPhases = (
+				D8322DD82049465700BACF1B /* Sources */,
+				D8322DD92049465700BACF1B /* Frameworks */,
+				D8322DDA2049465700BACF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTVTextAlignLabelDemo;
+			productName = NTVTextAlignLabelDemo;
+			productReference = D8322DDC2049465700BACF1B /* NTVTextAlignLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8322DF32049465700BACF1B /* NTVTextAlignLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8322E0B2049465700BACF1B /* Build configuration list for PBXNativeTarget "NTVTextAlignLabelDemoTests" */;
+			buildPhases = (
+				D8322DF02049465700BACF1B /* Sources */,
+				D8322DF12049465700BACF1B /* Frameworks */,
+				D8322DF22049465700BACF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8322DF62049465700BACF1B /* PBXTargetDependency */,
+			);
+			name = NTVTextAlignLabelDemoTests;
+			productName = NTVTextAlignLabelDemoTests;
+			productReference = D8322DF42049465700BACF1B /* NTVTextAlignLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8322DFE2049465700BACF1B /* NTVTextAlignLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8322E0E2049465700BACF1B /* Build configuration list for PBXNativeTarget "NTVTextAlignLabelDemoUITests" */;
+			buildPhases = (
+				D8322DFB2049465700BACF1B /* Sources */,
+				D8322DFC2049465700BACF1B /* Frameworks */,
+				D8322DFD2049465700BACF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8322E012049465700BACF1B /* PBXTargetDependency */,
+			);
+			name = NTVTextAlignLabelDemoUITests;
+			productName = NTVTextAlignLabelDemoUITests;
+			productReference = D8322DFF2049465700BACF1B /* NTVTextAlignLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8322DD42049465700BACF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = XinHuaTV;
+				TargetAttributes = {
+					D8322DDB2049465700BACF1B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D8322DF32049465700BACF1B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8322DDB2049465700BACF1B;
+					};
+					D8322DFE2049465700BACF1B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8322DDB2049465700BACF1B;
+					};
+				};
+			};
+			buildConfigurationList = D8322DD72049465700BACF1B /* Build configuration list for PBXProject "NTVTextAlignLabelDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8322DD32049465700BACF1B;
+			productRefGroup = D8322DDD2049465700BACF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8322DDB2049465700BACF1B /* NTVTextAlignLabelDemo */,
+				D8322DF32049465700BACF1B /* NTVTextAlignLabelDemoTests */,
+				D8322DFE2049465700BACF1B /* NTVTextAlignLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8322DDA2049465700BACF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8322DEC2049465700BACF1B /* LaunchScreen.storyboard in Resources */,
+				D8322DE92049465700BACF1B /* Assets.xcassets in Resources */,
+				D8322DE72049465700BACF1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8322DF22049465700BACF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8322DFD2049465700BACF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8322DD82049465700BACF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8322E162049466A00BACF1B /* VerticalLabel.m in Sources */,
+				D8322DE42049465700BACF1B /* ViewController.m in Sources */,
+				D8322DEF2049465700BACF1B /* main.m in Sources */,
+				D8322E152049466A00BACF1B /* NTVTextAlignLabel.m in Sources */,
+				D8322DE12049465700BACF1B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8322DF02049465700BACF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8322DF92049465700BACF1B /* NTVTextAlignLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8322DFB2049465700BACF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8322E042049465700BACF1B /* NTVTextAlignLabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8322DF62049465700BACF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8322DDB2049465700BACF1B /* NTVTextAlignLabelDemo */;
+			targetProxy = D8322DF52049465700BACF1B /* PBXContainerItemProxy */;
+		};
+		D8322E012049465700BACF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8322DDB2049465700BACF1B /* NTVTextAlignLabelDemo */;
+			targetProxy = D8322E002049465700BACF1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8322DE52049465700BACF1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8322DE62049465700BACF1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8322DEA2049465700BACF1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8322DEB2049465700BACF1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8322E062049465700BACF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8322E072049465700BACF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8322E092049465700BACF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = NTVTextAlignLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.NTVTextAlignLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8322E0A2049465700BACF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = NTVTextAlignLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.NTVTextAlignLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8322E0C2049465700BACF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = NTVTextAlignLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.NTVTextAlignLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTVTextAlignLabelDemo.app/NTVTextAlignLabelDemo";
+			};
+			name = Debug;
+		};
+		D8322E0D2049465700BACF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = NTVTextAlignLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.NTVTextAlignLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTVTextAlignLabelDemo.app/NTVTextAlignLabelDemo";
+			};
+			name = Release;
+		};
+		D8322E0F2049465700BACF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = NTVTextAlignLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.NTVTextAlignLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTVTextAlignLabelDemo;
+			};
+			name = Debug;
+		};
+		D8322E102049465700BACF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = NTVTextAlignLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.NTVTextAlignLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTVTextAlignLabelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8322DD72049465700BACF1B /* Build configuration list for PBXProject "NTVTextAlignLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8322E062049465700BACF1B /* Debug */,
+				D8322E072049465700BACF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8322E082049465700BACF1B /* Build configuration list for PBXNativeTarget "NTVTextAlignLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8322E092049465700BACF1B /* Debug */,
+				D8322E0A2049465700BACF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8322E0B2049465700BACF1B /* Build configuration list for PBXNativeTarget "NTVTextAlignLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8322E0C2049465700BACF1B /* Debug */,
+				D8322E0D2049465700BACF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8322E0E2049465700BACF1B /* Build configuration list for PBXNativeTarget "NTVTextAlignLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8322E0F2049465700BACF1B /* Debug */,
+				D8322E102049465700BACF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8322DD42049465700BACF1B /* Project object */;
+}
